@@ -2,37 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-block {
   display: flex;
-  flex-direction: column;
+  width: 434px;
+  margin: 15px auto;
+  justify-content:space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerText {
+  font-size: 14px;
 }
+.headerLog {
+  font-weight: 700;
+  color: #ff6d69;
+  cursor: pointer;
+}
+.headerTitle {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+.postForm {
+  margin: auto; 
+}
+.postForm input {
+  padding: 15px;
+  display: block;
+  min-width: 400px;
+  margin: 15px auto;
+}
+select {  
+  padding: 15px;
+  display: block;
+  min-width: 434px;
+  margin: 15px auto;}
+.btn {
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 0px;
+  background-color: #ff6d69;
+  font-weight: 600;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #d8524e;
+}
+.agree input {min-width: 20px; margin-right: 5px;}
+.agree {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 15px 0;
+  font-size: 14px;
+} 
+.err {background-color: #ff6d69; color: floralwhite; margin: 0; }
+.authBlock { 
+  background-color: #fecc50;   
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.authText {margin-right: 10px;}
+.hide {display: none;}
