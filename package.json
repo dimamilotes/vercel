@@ -36,15 +36,7 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "https://authtest111.herokuapp.com"
   
-  "proxy": {
-    "/proxy": {
-        "target": "https://authtest111.herokuapp.com",
-        "pathRewrite": {
-                "^/proxy" : ""
-        },
-        "changeOrigin": true
-    }
-}
   
 }
