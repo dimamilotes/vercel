@@ -37,7 +37,7 @@
     ]
   },
   "proxy": {
-    "/api": {
+    "/": {
       "target": "https://authtest111.herokuapp.com",
       "changeOrigin" : true
     }
